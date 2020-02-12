@@ -1,0 +1,18 @@
+.header {
+  position: absolute;
+  width: 100%;
+}
+
+.header__content {
+  margin: 0 auto;
+  max-width: 1418px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 15px;
+}
+
+.header__contacts-list {
+  margin: 0;
+  padding: 0;
+}

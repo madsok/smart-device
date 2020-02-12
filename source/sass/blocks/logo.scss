@@ -1,0 +1,28 @@
+.logo {
+  display:flex;
+}
+
+.logo__wrapper {
+  width: 52px;
+  height: 52px;
+}
+
+.logo__title {
+  margin: 0;
+  padding-left: 13px;
+  font-family: $h-font;
+  font-size: 25px;
+  line-height: 29px;
+  font-weight: 700;
+  font-style: normal;
+  color: $white;
+}
+
+.logo__title__sub {
+  font-family: $logo-font;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+  font-style: normal;
+  color: $light-grey;
+}

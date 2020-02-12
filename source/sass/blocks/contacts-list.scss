@@ -1,0 +1,35 @@
+.contacts-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.contacts-list__link {
+  font-family: $global-font;
+  line-height: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: $white;
+}
+
+.contacts-list__item--phone {
+  margin-left: 87px;
+}
+
+.contacts-list__item--order {
+  margin-left: 46px;
+}
+
+.contacts-list__btn {
+  padding: 12px 0;
+  width: 180px;
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid $white;
+  border-radius: 5px;
+}
