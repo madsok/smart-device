@@ -1,5 +1,5 @@
 .logo {
-  display:flex;
+  display: flex;
 }
 
 .logo__wrapper {
@@ -9,7 +9,9 @@
 
 .logo__title {
   margin: 0;
-  padding-left: 13px;
+  margin-left: 16px;
+  padding-top: 6px;
+  position: relative;
   font-family: $h-font;
   font-size: 25px;
   line-height: 29px;
@@ -18,7 +20,8 @@
   color: $white;
 }
 
-.logo__title__sub {
+.logo__subtitle {
+  position: absolute;
   font-family: $logo-font;
   font-size: 12px;
   line-height: 14px;

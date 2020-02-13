@@ -1,8 +1,86 @@
 .main-screen {
-  padding-top: 328px;
+  padding-top: 313px;
+  padding-bottom: 275px;
   min-height: 878px;
   background-color: $main-screen-bg;
   background-image:
+    url("../img/board-desktop-1x.png"),
+    url("data:image/svg+xml,%3Csvg fill='none' height='641' viewBox='0 0 671 641' width='671' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m626.842 159.584-274.675 475.75-274.6747-475.75z' opacity='.2' stroke='%23fff'/%3E%3Cpath d='m347.148 357.75-160.648 278.25-160.6477-278.25z' opacity='.2' stroke='%23fff'/%3E%3Cg fill='%23fff'%3E%3Ccircle cx='77' cy='159' r='5'/%3E%3Ccircle cx='26' cy='358' r='5'/%3E%3Ccircle cx='187' cy='636' r='5'/%3E%3Ccircle cx='352' cy='635' r='5'/%3E%3Ccircle cx='627' cy='159' r='5'/%3E%3C/g%3E%3C/svg%3E"),
     url("../img/start-bg-desk-1x.png");
   background-repeat: no-repeat;
+  background-position: calc(50% + 443px) 258px, calc(50% + 419px) 116px, center top;
+  background-size: auto, 671px 641px, cover;
+}
+
+.main-screen__content {
+  margin: 0 auto;
+  padding: 0 27px;
+  position: relative;
+  max-width: 1448px;
+}
+
+.main-screen__header {
+  margin: 0;
+  margin-bottom: 27px;
+  width: 718px;
+  font-family: $h-font;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 94px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: $white;
+}
+
+.main-screen__text {
+  margin: 0;
+  margin-bottom: 44px;
+  padding-left: 98px;
+  position: relative;
+  width: 708px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+  color: $white;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 16px;
+    left: 4px;
+    width: 66px;
+    height: 2px;
+    background-color: $white;
+  }
+}
+
+.main-screen__btn {
+  margin-left: 97px;
+  padding: 18px 28px 16px;
+  width: 407px;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  background-color: $btn-color;
+  border-color: $btn-color;
+}
+
+.main-screen__scroll {
+  position: absolute;
+  left: -8px;
+  bottom: -150px;
+  font-size: 14px;
+  line-height: 16px;
+  color: $white;
+  opacity: 0.5;
+  transform: rotate(-90deg);
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }

@@ -1,0 +1,22 @@
+.btn {
+  display: inline-block;
+  font-family: $h-font;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+  border: 1px solid;
+  border-radius: 5px;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
